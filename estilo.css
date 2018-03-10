@@ -1,0 +1,103 @@
+body {
+  background-color: dimgray;
+  margin: 0px;
+  padding: 0px;
+  color: lavender;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+}
+
+.layout {
+  max-width: 400px;
+  background-color: dimgray;
+  padding: 20px;
+}
+
+#site {
+  font-size: 0.6em;
+  text-align: right;
+}
+
+a:link, a:visited {
+  color: lavender;
+  text-decoration: none;
+}
+
+#tituloPrincipal {
+  font-size: 3em;
+  text-align: right;
+  line-height: 1.5em;
+}
+
+.respostaClasse {
+  display: grid;
+  padding: 5px;
+  grid-template-columns: 7.5em 1fr;
+  text-align: right;
+  font-size: 0.6em;
+}
+
+#tituloClasse, #tituloCodigo, #tituloLink {
+  text-align: left;
+}
+
+#codigo {
+  font-weight: bold;
+  color: orange;
+}
+
+.display {
+  display: grid;
+  background-color: lightslategray;
+  grid-template-columns: repeat(3, 1fr);
+  color: darkorange;
+  font-size: 5em;
+  text-align: center;
+  line-height: 1.0em;
+}
+
+#displayAlgarismo0, #displayAlgarismo1, #displayAlgarismo2 {
+  padding: 0px;
+  border: 1px dashed dimgray;
+}
+
+.teclado {
+  display: grid;
+  background-color: dimgray;
+  grid-template-columns: repeat(3, 1fr);
+  color: gray;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+}
+
+#tecla0, #tecla1, #tecla2, #tecla3, #tecla4, #tecla5, #tecla6, #tecla7, #tecla8, #tecla9, #teclaInfo, #teclaReset {
+  background-color: dimgray;
+  color: gray;
+  font-size: 3em;
+  border: 1px dashed;
+  border-color: gray;
+}
+
+#teclaInfo {
+  margin: 0px;
+  padding: 0px;
+  color: lavender;
+}
+
+#statusQuode {
+  margin: 0px;
+  padding: 0px;
+  background-color: gray;
+  color: lavender;
+  font-size: 1em;
+}
+
+#creditos {
+  margin: 0px;
+  padding: 0px;
+  color: lavender;
+  font-size: 0.6em;
+  line-height: 15px;
+  vertical-align: top;
+}

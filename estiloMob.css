@@ -1,0 +1,41 @@
+body {
+  font-size: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.layout {
+  max-width: 100%;
+  margin: 0px;
+  padding: 10px;
+}
+
+#site, #creditos {
+  font-size: 1em;
+}
+
+.display {
+  line-height: 1em;
+}
+
+.teclado {
+  width: 100%;
+}
+
+.respostaClasse {
+  display: block;
+  padding: 5px;
+  text-align: right;
+  font-size: 1.4em;
+}
+
+#tituloClasse, #tituloCodigo, #tituloLink {
+  display: none;
+}
+
+#link {
+  font-size: 0.7em;
+}
+#teclaInfo{
+  color: lavender;
+}
